@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500&display=swap');
 @font-face {
     font-family: 'League Spartan';
     src: url('../fonts/leaguespartan/leaguespartan-bold.eot');
@@ -6,18 +7,12 @@
     font-style: normal;
 }
 
-@font-face {
-    font-family: 'Gidole';
-    src: url('../fonts/gidole/gidole-regular.woff2') format('woff2'), url('../fonts/gidole/gidole-regular.woff') format('woff'), url('../fonts/gidole/gidole-regular.ttf') format('truetype');
-    font-weight: normal;
-    font-style: normal;
-}
-
 html,
 body {
     height: 100%;
     width: 100%;
-    font-family: "Gidole", sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
     font-size: 20px;
 }
 
@@ -31,8 +26,13 @@ h6,
     font-family: "League Spartan", sans-serif;
 }
 
+.h2,
+h2 {
+    font-size: 28px;
+}
+
 .container {
-    max-width: 1024px;
+    max-width: 976px;
 }
 
 ul li {
@@ -93,18 +93,18 @@ ul li {
 }
 
 .officer-wrapper {
-    width: 14rem;
+    width: 150px;
     margin: 0 auto;
 }
 
 .officer-description * {
     padding-top: 0.25em;
     margin: 0;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .officer-description .font-italic {
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .btn-margin {
@@ -112,7 +112,8 @@ ul li {
 }
 
 .btn-margin .btn {
-    padding: 15px 20px;
+    padding: 10px 15px;
+    font-size: 16px;
 }
 
 .external-links a {
@@ -176,8 +177,8 @@ ul li {
     font-size: 28px;
 }
 
-.pages-splash .content .lead {
-    font-size: 24px;
+.pages-splash .lead {
+    font-size: 22px;
 }
 
 .nav-item {
@@ -198,6 +199,7 @@ ul li {
     font-weight: 700;
     text-transform: uppercase;
     position: relative;
+    font-size: 16px;
 }
 
 .navbar .nav-item a.nav-link.active {
@@ -244,12 +246,16 @@ ul li {
 }
 
 .event-time {
-    font-weight: bold;
+    font-size: 16px;
 }
 
 .event-activity-name {
-    font-weight: bold;
-    font-size: 1.5rem;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+.event-url {
+    text-decoration: underline;
 }
 
 .event-iframe {
@@ -358,7 +364,7 @@ form {
 }
 
 .lead {
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .parallax-window {
