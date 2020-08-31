@@ -22,7 +22,8 @@ h3,
 h4,
 h5,
 h6,
-.nav-link {
+.nav-link,
+.btn {
     font-family: "League Spartan", sans-serif;
 }
 
@@ -39,22 +40,123 @@ ul li {
     font-size: 18px;
 }
 
-.splash-sub {
-    background-size: cover;
-    color: #ffffff;
-    height: 100%;
-    padding-top: 6rem;
-    position: relative;
+.main-content {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    /* position: relative; */
 }
 
-.splash-sub h2 {
+.lead {
+    font-size: 18px;
+}
+
+.gradient-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(135deg, #25336e 0%, #009fda 36%, #48c4e5 81%, #9cdbf1 100%);
+    opacity: 0.8;
+}
+
+.no-border {
+    border: none;
+}
+
+.logo {
+    height: 140px;
+    margin: 1rem 0;
+}
+
+.pages-splash {
+    color: #000;
+    padding: 70px 0;
+}
+
+.pages-splash .content {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.pages-splash h2 {
     font-weight: 700;
-    font-size: 1.5rem;
+    font-size: 28px;
+}
+
+.pages-splash .lead {
+    font-size: 22px;
+}
+
+.back-link {
+    margin-bottom: 20px;
+}
+
+.back-link .back-icon {
+    margin-right: 10px;
+}
+
+.nav-item {
+    margin: 0 10px 0 0;
+}
+
+.navbar-brand img {
+    width: 50px;
+}
+
+.navbar .nav-item a.nav-link {
+    color: #000;
+    font-weight: 700;
+    text-transform: uppercase;
+    position: relative;
+    font-size: 16px;
+}
+
+.navbar .nav-item a.nav-link.active {
+    border-bottom: 2px solid #000;
+}
+
+.navbar .nav-item a.nav-link:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.navbar .nav-item a.nav-link:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(0.8);
+    transform: scaleX(0.8);
 }
 
 .mission-content {
     padding-top: 4rem;
     padding-bottom: 0rem;
+}
+
+.comingsoon-content {
+    height: 40%;
+}
+
+.comingsoon-content .ml1 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+.comingsoon-content .ml1 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.1em;
+    padding-right: 0.05em;
+    padding-bottom: 0.15em;
 }
 
 .about-content {
@@ -107,142 +209,12 @@ ul li {
     font-size: 16px;
 }
 
-.btn-margin {
-    margin: 20px 0;
-}
-
-.btn-margin .btn {
-    padding: 10px 15px;
-    font-size: 16px;
-}
-
 .external-links a {
     color: inherit;
 }
 
 .external-links a:hover {
     opacity: 0.8;
-}
-
-.gradient-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(135deg, #25336e 0%, #009fda 36%, #48c4e5 81%, #9cdbf1 100%);
-    opacity: 0.8;
-}
-
-.no-border {
-    border: none;
-}
-
-.btn-dark-light {
-    border: solid 1.5px #000;
-    color: #000;
-    background: transparent;
-}
-
-.btn-dark-light:hover {
-    color: #fff;
-    background: #000;
-}
-
-.logo {
-    height: 10rem;
-    margin: 1rem 0;
-}
-
-.pages-splash {
-    color: #000;
-    padding: 70px 0;
-}
-
-.back-link {
-    margin-bottom: 20px;
-}
-
-.back-link .back-icon {
-    margin-right: 10px;
-}
-
-.pages-splash .content {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-.pages-splash h2 {
-    font-weight: 700;
-    font-size: 28px;
-}
-
-.pages-splash .lead {
-    font-size: 22px;
-}
-
-.nav-item {
-    margin: 0 10px 0 0;
-}
-
-.splash {
-    color: #000;
-    padding: 50px 0;
-}
-
-.navbar-brand img {
-    width: 50px;
-}
-
-.navbar .nav-item a.nav-link {
-    color: #000;
-    font-weight: 700;
-    text-transform: uppercase;
-    position: relative;
-    font-size: 16px;
-}
-
-.navbar .nav-item a.nav-link.active {
-    border-bottom: 2px solid #000;
-}
-
-.navbar .nav-item a.nav-link:before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 2px;
-    bottom: 0;
-    left: 0;
-    background-color: #000;
-    visibility: hidden;
-    -webkit-transform: scaleX(0);
-    transform: scaleX(0);
-    -webkit-transition: all 0.3s ease-in-out 0s;
-    transition: all 0.3s ease-in-out 0s;
-}
-
-.navbar .nav-item a.nav-link:hover:before {
-    visibility: visible;
-    -webkit-transform: scaleX(0.8);
-    transform: scaleX(0.8);
-}
-
-.fb-page {
-    display: block;
-    text-align: center;
-    margin: auto;
-}
-
-.fb_iframe_widget {
-    display: block;
-}
-
-.event img {
-    width: 20rem;
-}
-
-.event {
-    margin-bottom: 5rem;
 }
 
 .event-time {
@@ -271,18 +243,55 @@ ul li {
     font-size: 1rem;
 }
 
-#flyer img {
-    width: 100%;
-    height: auto;
+.contact-social-links {
+    margin-top: 50px;
 }
 
-.collaborations img {
-    width: 8rem;
+.contact-social-links i.fas,
+.contact-social-links i.fab,
+.contact-social-links i.fa {
+    font-size: 80px !important;
 }
 
-.mailing-list {
-    background: #222222;
-    color: #ffffff;
+.footer {
+    border-top: 1px solid #eee;
+    color: #333;
+    padding: 20px 0;
+}
+
+.footer .lead {
+    margin-bottom: 5px;
+}
+
+.social-links a {
+    text-decoration: none;
+    color: #333;
+    font-size: 2rem;
+    margin-right: 10px;
+}
+
+.social-links a:hover {
+    opacity: 0.8;
+}
+
+.btn-margin {
+    margin: 20px 0;
+}
+
+.btn-margin .btn {
+    padding: 10px 15px;
+    font-size: 16px;
+}
+
+.btn-dark-light {
+    border: solid 1.5px #000;
+    color: #000;
+    background: transparent;
+}
+
+.btn-dark-light:hover {
+    color: #fff;
+    background: #000;
 }
 
 .btn-gradient {
@@ -315,144 +324,10 @@ ul li {
     font-weight: 700;
 }
 
-form {
-    padding: 4rem 2rem;
-}
-
-.footer {
-    border-top: 1px solid #eee;
-    color: #333;
-    padding: 20px 0;
-}
-
-.footer .lead {
-    margin-bottom: 5px;
-}
-
-.contact-social-links {
-    margin-top: 50px;
-}
-
-.contact-social-links i.fas,
-.contact-social-links i.fab,
-.contact-social-links i.fa {
-    font-size: 80px !important;
-}
-
-.social-links a {
-    text-decoration: none;
-    color: #333;
-    font-size: 2rem;
-    margin-right: 10px;
-}
-
-.social-links a:hover {
-    opacity: 0.8;
-}
-
-.main-content {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-}
-
-.mailing-list .container {
-    padding: 4rem 0;
-}
-
-.container.navbar-container {
-    padding: 0;
-}
-
-.lead {
-    font-size: 18px;
-}
-
-.parallax-window {
-    min-height: 400px;
-    background: transparent;
-}
-
 .btn-outline-light:hover {
     color: grey;
     background-color: #ffffff;
     border-color: #ffffff;
-}
-
-.prompt-reveal-container {
-    padding: 3rem;
-    color: white;
-    background: linear-gradient(135deg, #3e57bd 0%, #009fda 36%, #48c4e5 81%, #8bd6f0 100%);
-    border-radius: 25px;
-}
-
-.prompt-reveal-container hr {
-    border-color: white;
-    margin: 3rem 0;
-}
-
-.prompt-reveal-container a {
-    color: #e87500;
-    font-weight: bold;
-}
-
-.utd-monogram-svg {
-    display: block;
-    width: 7rem;
-    margin: auto;
-}
-
-.indent {
-    margin-left: 3rem;
-}
-
-.countdown-container hr {
-    margin: 3rem 0;
-}
-
-.award-name {
-    text-align: center;
-    font-weight: bold;
-    font-size: 1.5rem;
-}
-
-.award-description {
-    text-align: center;
-    font-size: 1rem;
-}
-
-.center-text {
-    text-align: center;
-}
-
-.sub-text {
-    font-style: italic;
-    font-size: 15px !important;
-}
-
-.line-through {
-    text-decoration: line-through;
-}
-
-.design-challenge-sponsor {
-    width: 20rem;
-    padding-top: 2rem;
-}
-
-.design-challenge-flyer {
-    border: 1px solid rgb(220, 218, 218);
-}
-
-.design-challenge-timer-text {
-    font-size: 40px !important;
-}
-
-.design-challenge-timer {
-    color: red;
-}
-
-.rubric-pdf {
-    height: 40rem;
-    width: 80%;
 }
 
 .alert-color-yellow {
@@ -474,9 +349,15 @@ form {
     padding: 1rem;
 }
 
-.fa-exclamation-circle {
-    font-size: 2rem;
-    padding: 0rem 1rem;
+.grey-dot-bg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 256px;
+    height: 200px;
+    background: #fff;
+    background-image: radial-gradient(#5BC6E8 15%, transparent 0), radial-gradient(#5BC6E8 15%, transparent 0);
+    background-size: 25px 25px;
 }
 
 @media (max-width: 700px) {
