@@ -142,6 +142,11 @@ ul li {
     padding-bottom: 0rem;
 }
 
+.no-margin-content {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+
 .comingsoon-content {
     height: 40%;
 }
@@ -217,8 +222,9 @@ ul li {
     opacity: 0.8;
 }
 
-.event-time {
-    font-size: 16px;
+.event-time,
+.event-time ul li {
+    font-size: 16px !important;
 }
 
 .event-activity-name {
@@ -226,7 +232,8 @@ ul li {
     font-size: 20px;
 }
 
-.event-url {
+.event-url,
+.underlined {
     text-decoration: underline;
 }
 
@@ -283,10 +290,18 @@ ul li {
     font-size: 16px;
 }
 
+.btn-dark {
+    border: solid 1.5px #000;
+    color: #fff;
+    background: #000;
+    box-shadow: 0 1.5px 3.5px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.14);
+}
+
 .btn-dark-light {
     border: solid 1.5px #000;
     color: #000;
     background: transparent;
+    box-shadow: 0 1.5px 3.5px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.14);
 }
 
 .btn-dark-light:hover {
@@ -308,45 +323,44 @@ ul li {
     color: #ffffff;
 }
 
-.btn-clear {
-    background: transparent;
-    color: #ffffff;
-    border: 1px solid #fff;
-    font-weight: normal;
-    font-size: 14px;
-    height: 43px;
-    transition: all 0.5s;
-}
-
-.btn-clear:hover {
-    background-color: #fff;
-    color: #222;
-    font-weight: 700;
-}
-
 .btn-outline-light:hover {
     color: grey;
     background-color: #ffffff;
     border-color: #ffffff;
 }
 
+.new-registrations {
+    background-color: #fff3cd;
+    border-color: #fff3cd;
+    color: #000;
+    border: 1px solid transparent;
+    padding: 30px 20px;
+    border-radius: 10px;
+}
+
+.new-registrations .lead {
+    display: block;
+    padding: 10px 0 0;
+}
+
 .alert-color-yellow {
     background-color: #fff3cd;
     border-color: #fff3cd;
-    color: #856404;
+    color: #000;
     border: 1px solid transparent;
 }
 
-.alert-color-blue {
-    color: #004085;
-    background-color: #cce5ff;
-    border-color: #b8daff;
+.alert-color-red {
+    color: #000;
+    background-color: #ffcdcd;
+    border-color: #ffcdcd;
     border: 1px solid transparent;
 }
 
 .alert-contents {
-    display: flex;
-    padding: 1rem;
+    display: block;
+    padding: 10px;
+    text-align: center;
 }
 
 .grey-dot-bg {
