@@ -14,6 +14,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 20px;
+    background: #f9f9f9;
 }
 
 h1,
@@ -229,7 +230,7 @@ ul li {
 }
 
 .officer-wrapper {
-    width: 150px;
+    width: 200px;
     margin: 0 auto;
 }
 
@@ -267,7 +268,8 @@ ul li {
 }
 
 .event-iframe {
-    border: 1px solid #000;
+    border: 1px solid #ccc;
+    box-shadow: 0 1.5px 3.5px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.14);
 }
 
 .event-speaker-name {
@@ -289,10 +291,15 @@ ul li {
     font-size: 60px !important;
 }
 
+.header {
+    background: #fff;
+}
+
 .footer {
     border-top: 1px solid #eee;
     color: #333;
     padding: 20px 0;
+    background: #fff;
 }
 
 .footer .lead {
@@ -315,8 +322,9 @@ ul li {
 }
 
 .btn-margin .btn {
-    padding: 10px 15px;
-    font-size: 16px;
+    padding: 10px 20px;
+    font-size: 14px;
+    margin: 0px 5px !important
 }
 
 .btn-dark {
