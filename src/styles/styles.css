@@ -299,7 +299,7 @@ ul li {
 
 .btn-dark {
     border: solid 1.5px #000;
-    color: #fff;
+    color: #fff !important;
     background: #000;
     box-shadow: 0 1.5px 3.5px rgba(0, 0, 0, 0.12), 0 3px 6px rgba(0, 0, 0, 0.14);
 }
@@ -389,5 +389,8 @@ ul li {
     .contact-social-links i.fab,
     .contact-social-links i.fa {
         font-size: 40px !important;
+    }
+    .navbar {
+        padding: 0;
     }
 }
