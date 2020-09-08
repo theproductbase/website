@@ -42,8 +42,8 @@ ul li {
 }
 
 .main-content {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
+    /* padding-top: 3rem;
+    padding-bottom: 3rem; */
     /* position: relative; */
 }
 
@@ -86,7 +86,7 @@ ul li {
 
 .pages-splash.page-events,
 .pages-back.page-events {
-    background: #f5f0ec;
+    background: #fbccbe;
 }
 
 .pages-home.page-about,
@@ -125,7 +125,7 @@ ul li {
 }
 
 .navbar {
-    padding: 0;
+    padding: 20px 0;
 }
 
 .navbar-brand img {
@@ -321,10 +321,14 @@ ul li {
     margin: 20px 0;
 }
 
+.btn {
+    border-radius: 0;
+}
+
 .btn-margin .btn {
     padding: 10px 20px;
     font-size: 14px;
-    margin: 0px 5px !important
+    margin: 0px 5px !important;
 }
 
 .btn-dark {
@@ -367,12 +371,11 @@ ul li {
 }
 
 .new-registrations {
-    background-color: #fff3cd;
+    background-color: #ffe89c;
     border-color: #fff3cd;
     color: #000;
     border: 1px solid transparent;
     padding: 30px 20px;
-    border-radius: 10px;
 }
 
 .new-registrations .lead {
@@ -381,7 +384,7 @@ ul li {
 }
 
 .alert-color-yellow {
-    background-color: #fff3cd;
+    background-color: #ffe89c;
     border-color: #fff3cd;
     color: #000;
     border: 1px solid transparent;
@@ -411,6 +414,15 @@ ul li {
     background-size: 25px 25px;
 }
 
+.facts {
+    margin: 60px 0 20px;
+}
+
+.facts .value {
+    font-weight: 500;
+    font-size: 40px;
+}
+
 @media (max-width: 700px) {
     .pages-splash {
         padding: 50px 20px;
@@ -419,5 +431,8 @@ ul li {
     .contact-social-links i.fab,
     .contact-social-links i.fa {
         font-size: 40px !important;
+    }
+    .navbar {
+        padding: 5px 0;
     }
 }
