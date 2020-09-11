@@ -41,6 +41,13 @@ ul li {
     font-size: 18px;
 }
 
+hr {
+    line-height: 1px;
+    height: 1px;
+    font-size: 1px;
+    margin: 0;
+}
+
 .main-content {
     /* padding-top: 3rem;
     padding-bottom: 3rem; */
@@ -250,6 +257,38 @@ ul li {
 
 .external-links a:hover {
     opacity: 0.8;
+}
+
+.next-event,
+.previous-event {
+    background: #fbccbe;
+    padding: 1rem 0;
+}
+
+.next-event {
+    background: #fdab93;
+}
+
+.next-event a,
+.previous-event a {
+    color: #000;
+    text-decoration: underline;
+}
+
+.event-details {
+    padding: 1rem 0 0;
+}
+
+.event-details.yellow {
+    background: #f9e9b1;
+}
+
+.event-details.blue {
+    background: #b6e1f3;
+}
+
+.event-details.green {
+    background: #c8de72;
 }
 
 .event-time,
