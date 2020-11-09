@@ -91,10 +91,11 @@ hr {
     padding: 100px 0;
 }
 
-.pages-splash.page-events,
+
+/* .pages-splash.page-events,
 .pages-back.page-events {
     background: #fbccbe;
-}
+} */
 
 .pages-home.page-about,
 .pages-splash.page-about {
@@ -262,6 +263,10 @@ hr {
     opacity: 0.8;
 }
 
+.previous-next-event {
+    margin-top: 30px;
+}
+
 .next-event,
 .previous-event {
     background: #fbccbe;
@@ -270,6 +275,11 @@ hr {
 
 .next-event {
     background: #fdab93;
+}
+
+.next-event h2,
+.previous-event h2 {
+    font-size: 20px;
 }
 
 .next-event a,
