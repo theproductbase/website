@@ -304,7 +304,6 @@ hr {
 }
 
 .offering-bg-icon {
-    background: #f1f1f1;
     width: 120px;
     height: 120px;
     text-align: center;
@@ -700,6 +699,10 @@ hr {
     background: #fff;
     background-image: radial-gradient(#5BC6E8 15%, transparent 0), radial-gradient(#5BC6E8 15%, transparent 0);
     background-size: 25px 25px;
+}
+
+.all-events-btn {
+    justify-content: center;
 }
 
 .fact-numbers {
