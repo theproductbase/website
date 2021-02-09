@@ -288,6 +288,7 @@ hr {
 
 .offerings {
     margin: 50px 0;
+    padding: 0;
 }
 
 .offering {
@@ -308,7 +309,7 @@ hr {
     height: 120px;
     text-align: center;
     margin: 0 auto;
-    border-radius: 50%;
+    border-radius: 6px;
     padding-top: 10px;
     box-shadow: 0px 2px 7px rgb(0 0 0 / 15%);
 }
@@ -339,25 +340,28 @@ hr {
     display: inline-block;
 }
 
-.officers .external-links {
-    background: #00000066;
-    height: 100%;
-    width: 100%;
-    position: absolute;
-    top: 0;
-    left: 0;
-    display: none;
-    color: #fff;
-    text-decoration: none;
-    font-size: 1.4rem;
-    padding-top: 35%;
-}
-
 .officer-wrapper {
     width: 250px;
     margin: 0 auto 20px;
     box-shadow: 0px 2px 7px rgb(0 0 0 / 15%);
     border-radius: 4px;
+}
+
+.officer-description {
+    position: absolute;
+    bottom: -20px;
+    left: 14px;
+    color: #fff;
+    text-align: left;
+}
+
+.officer-black-overlay {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    border-radius: 4px;
+    top: 0;
+    background: rgba(0, 0, 0, 0.3);
 }
 
 .officer-description .font-weight-bold {
@@ -368,7 +372,6 @@ hr {
 
 .officer-description .position {
     font-size: 16px;
-    color: #666;
     padding-bottom: 10px;
 }
 
@@ -760,6 +763,9 @@ hr {
 }
 
 @media (max-width: 700px) {
+    .officer-wrapper {
+        width: 100%;
+    }
     .pages-splash {
         padding: 50px 0px;
     }
