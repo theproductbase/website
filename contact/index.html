@@ -10,7 +10,7 @@
 
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -43,14 +43,19 @@
 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Contact The Product Base Club - UTD</title>
 </head>
 
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGLTQCF"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGLTQCF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="header">
         <div class="container my-0 py-0">
@@ -61,7 +66,8 @@
                     <img src="../src/imgs/logos/logo.png" alt="The Product Base Club - UTD" />
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
 
@@ -95,14 +101,15 @@
                 <div class="col-12 ">
                     <div class="content ">
                         <h2>Contact Us</h2>
-                        <p class="lead ">Do you have any questions? We'd love to hear from you. Connect with us using our social media links below and DM us.</p>
+                        <p class="lead ">Do you have any questions? We'd love to hear from you. Connect with us using
+                            our social media links below and DM us.</p>
                     </div>
 
                 </div>
             </div>
-            <div class="row ">
+            <div class="row">
                 <div class="col-12 ">
-                    <div class="contact-social-links social-links ">
+                    <div class="contact-social-links social-links" data-aos="fade-up">
                         <a href="https://utdallas.presence.io/organization/the-product-base " target="_blank ">
                             <i class="glyph-icon flaticon-startup"></i>
                         </a>
@@ -138,5 +145,9 @@
 
 
 </body>
+
+<script>
+    AOS.init({duration: 1200});
+</script>
 
 </html>

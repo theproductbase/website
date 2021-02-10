@@ -10,7 +10,7 @@
 
     <!-- Google Tag Manager -->
     <script>
-        (function(w, d, s, l, i) {
+        (function (w, d, s, l, i) {
             w[l] = w[l] || [];
             w[l].push({
                 'gtm.start': new Date().getTime(),
@@ -44,13 +44,18 @@
 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
     <title>Events at The Product Base Club - UTD</title>
 </head>
 
 <body>
     <!-- Google Tag Manager (noscript) -->
-    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGLTQCF"
-    height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TGLTQCF" height="0" width="0"
+            style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
     <div class="header">
         <div class="container my-0 py-0">
@@ -60,9 +65,10 @@
                     <img src="../src/imgs/logos/logo.png" alt="The Product Base Club - UTD" />
                 </a>
 
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
 
                 <div class="collapse navbar-collapse" id="navbarNav">
                     <ul class="navbar-nav ml-auto">
@@ -97,7 +103,8 @@
                 <div class="col-12">
                     <div class="content">
                         <h2>Events</h2>
-                        <p class="lead">We host events to open up the field of Product Management to UT Dallas Students.</p>
+                        <p class="lead">We host events to open up the field of Product Management to UT Dallas Students.
+                        </p>
                     </div>
 
                 </div>
@@ -111,7 +118,7 @@
             <!-- Schedule body -->
             <div class="container">
                 <div class="row event-details">
-                    <div class="col-md-12">
+                    <div class="col-md-12" data-aos="fade-right">
                         <!-- <div class="grey-dot-bg desktop-only"></div> -->
 
                         <h2 class="font-weight-bold">Upcoming Events</h2>
@@ -129,48 +136,54 @@
                         </p>
                     </div>
                 </div> -->
-                <div class="row event-details">
+                <div class="row event-details" data-aos="fade-right">
                     <div class="col-md-12">
                         <p class="event-activity-name event-name">Execution</p>
-                        <p class="event-time">16th to 18th February, <br/>23rd to 25th March</p>
+                        <p class="event-time">16th to 18th February, <br />23rd to 25th March</p>
                         <p class="event-activity-description">
-                            <ul class="event-description">
-                                <li>Prioritization</li>
-                                <li>Product Roadmap</li>
-                                <li>Opportunity Assessment, Product Requirement documentation (PRDs), Release Notes and documentation</li>
-                                <li>Working with stakeholders/product teams/release plans/backlog refinement</li>
-                            </ul>
+                        <ul class="event-description">
+                            <li>Prioritization</li>
+                            <li>Product Roadmap</li>
+                            <li>Opportunity Assessment, Product Requirement documentation (PRDs), Release Notes and
+                                documentation</li>
+                            <li>Working with stakeholders/product teams/release plans/backlog refinement</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
-                <hr/>
-                <div class="row event-details">
+
+                <hr />
+
+                <div class="row event-details" data-aos="fade-right">
                     <div class="col-md-12">
                         <p class="event-activity-name event-name">Analytics</p>
-                        <p class="event-time">16th to 18th February, <br/>23rd to 25th March</p>
+                        <p class="event-time">16th to 18th February, <br />23rd to 25th March</p>
                         <p class="event-activity-description">
-                            <ul class="event-description">
-                                <li>Success Metrics (Pirate Metrics) - AARRR, HEART </li>
-                                <li>Popular App/Web/SaaS Metrics, Google Analytics,Segment.io, Event Tracking, A/B Testing</li>
-                                <li>NPS and CSAT </li>
-                                <li>Product profitability, Revenue, Growth </li>
-                                <li>User Behavior - Segmentation and Funnel Analytics</li>
-                            </ul>
+                        <ul class="event-description">
+                            <li>Success Metrics (Pirate Metrics) - AARRR, HEART </li>
+                            <li>Popular App/Web/SaaS Metrics, Google Analytics,Segment.io, Event Tracking, A/B Testing
+                            </li>
+                            <li>NPS and CSAT </li>
+                            <li>Product profitability, Revenue, Growth </li>
+                            <li>User Behavior - Segmentation and Funnel Analytics</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
-                <hr/>
-                <div class="row event-details">
+
+                <hr />
+
+                <div class="row event-details" data-aos="fade-right">
                     <div class="col-md-12">
                         <p class="event-activity-name event-name">Technology</p>
                         <p class="event-time">6th to 8th April</p>
                         <p class="event-activity-description">
-                            <ul class="event-description">
-                                <li>Technology stack, Front-end, Back-end, Hybrid, Mobile </li>
-                                <li>APIs, Databases, and CMS </li>
-                                <li>Git, Shipping Code on environments </li>
-                                <li>System Design questions</li>
-                            </ul>
+                        <ul class="event-description">
+                            <li>Technology stack, Front-end, Back-end, Hybrid, Mobile </li>
+                            <li>APIs, Databases, and CMS </li>
+                            <li>Git, Shipping Code on environments </li>
+                            <li>System Design questions</li>
+                        </ul>
                         </p>
                     </div>
                 </div>
@@ -209,188 +222,217 @@
                 </div>
                 <br>
 
-                <div class="row event-details">
+                <div class="row event-details" data-aos="fade-up">
                     <div class="col-md-12">
                         <p class="event-activity-name">
                             <a class="event-name" href="design-workshop.html">Balsamiq Design Workshop</a>
-                            <p class="event-time">18th November</p>
+                        <p class="event-time">18th November</p>
                         </p>
                         <p class="event-activity-description">
-                            <div class="row col-md-6 col-12 speaker-details">
-                                <div class="col-md-4 col-6 speaker-img">
-                                    <div class="position-relative speaker-img-wrapper">
-                                        <img src="../src/imgs/speakers/anwesha_bhattacharjee.jpeg" alt="Dr. Anwesha Bhattacharjee">
-                                    </div>
-                                </div>
-                                <div class="col-md-8 col-6 speaker-name">
-                                    <span>
-                                        <p class="font-weight-bold"><a class="event-speaker" href="https://www.linkedin.com/in/anweshabhattacharjee/" target="_new">Dr. Anwesha Bhattacharjee</a></p>
-                                        <p class="font-weight-light position">Product Manager</p>
-                                        <img class="speaker-company" src="../src/imgs/companies/Hopper.png" alt="Hopper">
-                                    </span>
+                        <div class="row col-md-6 col-12 speaker-details">
+                            <div class="col-md-4 col-6 speaker-img">
+                                <div class="position-relative speaker-img-wrapper">
+                                    <img src="../src/imgs/speakers/anwesha_bhattacharjee.jpeg"
+                                        alt="Dr. Anwesha Bhattacharjee">
                                 </div>
                             </div>
-                            <a href="design-workshop.html" class="col-12 col-md-6 event-btn btn btn-dark">View the Recording</a>
+                            <div class="col-md-8 col-6 speaker-name">
+                                <span>
+                                    <p class="font-weight-bold"><a class="event-speaker"
+                                            href="https://www.linkedin.com/in/anweshabhattacharjee/" target="_new">Dr.
+                                            Anwesha Bhattacharjee</a></p>
+                                    <p class="font-weight-light position">Product Manager</p>
+                                    <img class="speaker-company" src="../src/imgs/companies/Hopper.png" alt="Hopper">
+                                </span>
+                            </div>
+                        </div>
+                        <a href="design-workshop.html" class="col-12 col-md-6 event-btn btn btn-dark">View the
+                            Recording</a>
                         </p>
                     </div>
                 </div>
-                <hr/>
-                <div class="row event-details">
+
+                <hr />
+
+                <div class="row event-details" data-aos="fade-up">
                     <div class="col-md-12">
                         <p class="event-activity-name">
                             <a class="event-name" href="design.html">User Design</a>
-                            <p class="event-time">12th November</p>
+                        <p class="event-time">12th November</p>
                         </p>
                         <p class="event-activity-description col-md-12 row">
-                            <div class="row col-md-6 col-12 speaker-details">
-                                <div class="col-md-4 col-6 speaker-img">
-                                    <div class="position-relative speaker-img-wrapper">
-                                        <img src="../src/imgs/speakers/anwesha_bhattacharjee.jpeg" alt="Dr. Anwesha Bhattacharjee">
-                                    </div>
-                                </div>
-                                <div class="col-md-8 col-6 speaker-name">
-                                    <span>
-                                        <p class="font-weight-bold"><a class="event-speaker" href="https://www.linkedin.com/in/anweshabhattacharjee/" target="_new">Dr. Anwesha Bhattacharjee</a></p>
-                                        <p class="font-weight-light position">Product Manager</p>
-                                        <img class="speaker-company" src="../src/imgs/companies/Hopper.png" alt="Hopper">
-                                    </span>
+                        <div class="row col-md-6 col-12 speaker-details">
+                            <div class="col-md-4 col-6 speaker-img">
+                                <div class="position-relative speaker-img-wrapper">
+                                    <img src="../src/imgs/speakers/anwesha_bhattacharjee.jpeg"
+                                        alt="Dr. Anwesha Bhattacharjee">
                                 </div>
                             </div>
-                            <div class="row col-md-6 col-12 speaker-details">
-                                <div class="col-md-4 col-6 speaker-img">
-                                    <div class="position-relative speaker-img-wrapper">
-                                        <img src="../src/imgs/speakers/sophi_marass.jpeg" alt="Sophi Marass">
-                                    </div>
-                                </div>
-                                <div class="col-md-8 col-6 speaker-name">
-                                    <span>
-                                        <p class="font-weight-bold"><a class="event-speaker" href="https://www.linkedin.com/in/sophimarass/" target="_new">Sophi Marass</a></p>
-                                        <p class="font-weight-light position">Lead Product Designer</p>
-                                        <img class="speaker-company" src="../src/imgs/companies/BigCommerce.png" alt="BigCommerce">
-                                    </span>
+                            <div class="col-md-8 col-6 speaker-name">
+                                <span>
+                                    <p class="font-weight-bold"><a class="event-speaker"
+                                            href="https://www.linkedin.com/in/anweshabhattacharjee/" target="_new">Dr.
+                                            Anwesha Bhattacharjee</a></p>
+                                    <p class="font-weight-light position">Product Manager</p>
+                                    <img class="speaker-company" src="../src/imgs/companies/Hopper.png" alt="Hopper">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="row col-md-6 col-12 speaker-details">
+                            <div class="col-md-4 col-6 speaker-img">
+                                <div class="position-relative speaker-img-wrapper">
+                                    <img src="../src/imgs/speakers/sophi_marass.jpeg" alt="Sophi Marass">
                                 </div>
                             </div>
-                            <ul class="event-description">
-                                <li>Web and App design</li>
-                                <li>Design principles, UX trends, Usability testing </li>
-                                <li>Wireframe and Interactive Prototyping </li>
-                            </ul>
-                            <a href="design.html" class="col-12 col-md-6 event-btn btn btn-dark">View the Recording & Presentation</a>
+                            <div class="col-md-8 col-6 speaker-name">
+                                <span>
+                                    <p class="font-weight-bold"><a class="event-speaker"
+                                            href="https://www.linkedin.com/in/sophimarass/" target="_new">Sophi
+                                            Marass</a></p>
+                                    <p class="font-weight-light position">Lead Product Designer</p>
+                                    <img class="speaker-company" src="../src/imgs/companies/BigCommerce.png"
+                                        alt="BigCommerce">
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="event-description">
+                            <li>Web and App design</li>
+                            <li>Design principles, UX trends, Usability testing </li>
+                            <li>Wireframe and Interactive Prototyping </li>
+                        </ul>
+                        <a href="design.html" class="col-12 col-md-6 event-btn btn btn-dark">View the Recording &
+                            Presentation</a>
                         </p>
                     </div>
                 </div>
-                <hr/>
 
-                <div class="row event-details">
+                <hr />
+
+                <div class="row event-details" data-aos="fade-up">
                     <div class="col-md-12">
                         <p class="event-activity-name">
                             <a class="event-name" href="research.html">User Research</a>
-                            <p class="event-time">12th October</p>
+                        <p class="event-time">12th October</p>
                         </p>
                         <p class="event-activity-description">
-                            <div class="row col-md-6 col-12 speaker-details">
-                                <div class="col-md-4 col-6 speaker-img">
-                                    <div class="position-relative speaker-img-wrapper">
-                                        <img src="../src/imgs/speakers/shiva_arunachalam.jpeg" alt="Shiva Arunachalam">
-                                    </div>
-                                </div>
-                                <div class="col-md-8 col-6 speaker-name">
-                                    <span>
-                                        <p class="font-weight-bold"><a class="event-speaker" href="https://www.linkedin.com/in/arunash/" target="_new">Shiva Arunachalam</a></p>
-                                        <p class="font-weight-light position">Product Manager</p>
-                                        <img class="speaker-company" src="../src/imgs/companies/Uber.png" alt="Uber">
-                                    </span>
+                        <div class="row col-md-6 col-12 speaker-details">
+                            <div class="col-md-4 col-6 speaker-img">
+                                <div class="position-relative speaker-img-wrapper">
+                                    <img src="../src/imgs/speakers/shiva_arunachalam.jpeg" alt="Shiva Arunachalam">
                                 </div>
                             </div>
-                            <ul class="event-description">
-                                <li>Customer Discovery</li>
-                                <li>Design thinking process (Is it always feasible?)</li>
-                                <li>User Research - User Survey, Interviews, Persona and Journey Mapping </li>
-                                <li>Identify needs, Marketing, Competitive Analysis,Segmentation, Target Audience - Idea/features research</li>
-                            </ul>
-                            <a href="research.html" class="col-12 col-md-6 event-btn btn btn-dark">View the Recording</a>
+                            <div class="col-md-8 col-6 speaker-name">
+                                <span>
+                                    <p class="font-weight-bold"><a class="event-speaker"
+                                            href="https://www.linkedin.com/in/arunash/" target="_new">Shiva
+                                            Arunachalam</a></p>
+                                    <p class="font-weight-light position">Product Manager</p>
+                                    <img class="speaker-company" src="../src/imgs/companies/Uber.png" alt="Uber">
+                                </span>
+                            </div>
+                        </div>
+                        <ul class="event-description">
+                            <li>Customer Discovery</li>
+                            <li>Design thinking process (Is it always feasible?)</li>
+                            <li>User Research - User Survey, Interviews, Persona and Journey Mapping </li>
+                            <li>Identify needs, Marketing, Competitive Analysis,Segmentation, Target Audience -
+                                Idea/features research</li>
+                        </ul>
+                        <a href="research.html" class="col-12 col-md-6 event-btn btn btn-dark">View the Recording</a>
                         </p>
                     </div>
                 </div>
-                <hr/>
 
-                <div class="row event-details">
+                <hr />
+
+                <div class="row event-details" data-aos="fade-up">
                     <div class="col-md-12">
                         <p class="event-activity-name">
                             <a class="event-name" href="strategy.html"> Product Vision & Strategy</a>
-                            <p class="event-time">16th September, 2020</p>
+                        <p class="event-time">16th September, 2020</p>
                         </p>
                         <p class="event-activity-description">
-                            <div class="row col-md-6 col-12 speaker-details">
-                                <div class="col-md-4 col-6 speaker-img">
-                                    <div class="position-relative speaker-img-wrapper">
-                                        <img src="../src/imgs/speakers/shreyas_sali.png" alt="Shreyas G. Sali">
-                                    </div>
-                                </div>
-                                <div class="col-md-8 col-6 speaker-name">
-                                    <span>
-                                        <p class="font-weight-bold"><a class="event-speaker" href="https://www.linkedin.com/in/shreyassali/" target="_new">Shreyas G. Sali</a></p>
-                                        <p class="font-weight-light position">Sr. Group Product Lead</p>
-                                        <img class="speaker-company" src="../src/imgs/companies/Spocket.png" alt="Spocket">
-                                        <img class="speaker-company" src="../src/imgs/companies/Amazon.png" alt="Amazon">
-                                    </span>
+                        <div class="row col-md-6 col-12 speaker-details">
+                            <div class="col-md-4 col-6 speaker-img">
+                                <div class="position-relative speaker-img-wrapper">
+                                    <img src="../src/imgs/speakers/shreyas_sali.png" alt="Shreyas G. Sali">
                                 </div>
                             </div>
+                            <div class="col-md-8 col-6 speaker-name">
+                                <span>
+                                    <p class="font-weight-bold"><a class="event-speaker"
+                                            href="https://www.linkedin.com/in/shreyassali/" target="_new">Shreyas G.
+                                            Sali</a></p>
+                                    <p class="font-weight-light position">Sr. Group Product Lead</p>
+                                    <img class="speaker-company" src="../src/imgs/companies/Spocket.png" alt="Spocket">
+                                    <img class="speaker-company" src="../src/imgs/companies/Amazon.png" alt="Amazon">
+                                </span>
+                            </div>
+                        </div>
 
-                            <ul class="event-description">
-                                <li>Setting Product strategy and vision, linking to org. vision, for different teams/disciplines</li>
-                                <li>KPIs/Success Metrics </li>
-                                <li>Workshop on Product Strategy and Vision</li>
-                            </ul>
-                            <a href="strategy.html" class="col-12 col-md-6 event-btn btn btn-dark">View the Recording and Presentation</a>
+                        <ul class="event-description">
+                            <li>Setting Product strategy and vision, linking to org. vision, for different
+                                teams/disciplines</li>
+                            <li>KPIs/Success Metrics </li>
+                            <li>Workshop on Product Strategy and Vision</li>
+                        </ul>
+                        <a href="strategy.html" class="col-12 col-md-6 event-btn btn btn-dark">View the Recording and
+                            Presentation</a>
                         </p>
                     </div>
                 </div>
-                <hr/>
-                <div class="row event-details">
+
+                <hr />
+
+                <div class="row event-details" data-aos="fade-up">
                     <div class="col-md-12">
                         <p class="event-activity-name">
                             <a class="event-name" href="overview.html"> PM Overview</a>
-                            <p class="event-time">26th August, 2020</p>
+                        <p class="event-time">26th August, 2020</p>
                         </p>
                         <p class="event-activity-description">
-                            <div class="row col-md-6 col-12 speaker-details">
-                                <div class="col-md-4 col-6 speaker-img">
-                                    <div class="position-relative speaker-img-wrapper">
-                                        <img src="../src/imgs/speakers/diego_granados.jpeg" alt="Diego Granados">
-                                    </div>
-                                </div>
-                                <div class="col-md-8 col-6 speaker-name">
-                                    <span>
-                                        <p class="font-weight-bold"><a class="event-speaker" href="https://www.linkedin.com/in/diegogranadoshernandez/" target="_new">Diego Granados</a></p>
-                                        <p class="font-weight-light position">Product Manager</p>
-                                        <img class="speaker-company" src="../src/imgs/companies/Microsoft.png" alt="Microsoft">
-                                    </span>
+                        <div class="row col-md-6 col-12 speaker-details">
+                            <div class="col-md-4 col-6 speaker-img">
+                                <div class="position-relative speaker-img-wrapper">
+                                    <img src="../src/imgs/speakers/diego_granados.jpeg" alt="Diego Granados">
                                 </div>
                             </div>
+                            <div class="col-md-8 col-6 speaker-name">
+                                <span>
+                                    <p class="font-weight-bold"><a class="event-speaker"
+                                            href="https://www.linkedin.com/in/diegogranadoshernandez/"
+                                            target="_new">Diego Granados</a></p>
+                                    <p class="font-weight-light position">Product Manager</p>
+                                    <img class="speaker-company" src="../src/imgs/companies/Microsoft.png"
+                                        alt="Microsoft">
+                                </span>
+                            </div>
+                        </div>
 
 
 
 
-                            <ul class="event-description">
-                                <li>
-                                    What is Product Management?
-                                </li>
-                                <li>
-                                    Product lifecycle, A day in the life, Organization structure (who manages what?)
-                                </li>
-                                <li>
-                                    Requirements, Essential traits to become a PM, transition to PM role
-                                </li>
-                                <li>
-                                    Diff. PM roles - Product operations, Product Analyst, Technical PM, Principal PM vs Direct PM
-                                </li>
-                            </ul>
-                            <a href="overview.html" class="col-12 col-md-6 col-12 col-md-6 event-btn btn btn-dark">View the Recording and Presentation</a>
+                        <ul class="event-description">
+                            <li>
+                                What is Product Management?
+                            </li>
+                            <li>
+                                Product lifecycle, A day in the life, Organization structure (who manages what?)
+                            </li>
+                            <li>
+                                Requirements, Essential traits to become a PM, transition to PM role
+                            </li>
+                            <li>
+                                Diff. PM roles - Product operations, Product Analyst, Technical PM, Principal PM vs
+                                Direct PM
+                            </li>
+                        </ul>
+                        <a href="overview.html" class="col-12 col-md-6 col-12 col-md-6 event-btn btn btn-dark">View the
+                            Recording and Presentation</a>
                         </p>
                     </div>
                 </div>
-                </br/>
+                </br />
             </div>
         </div>
 
@@ -400,8 +442,8 @@
 
     <!--footer-->
     <div class="container-fluid footer text-center">
-        <div class="container">
-            <div class="social-links">
+        <div class="container mb-5">
+            <div class="social-links" data-aos="fade-up">
                 <p class="lead">Stay Connected</p>
 
                 <a href="https://utdallas.presence.io/organization/the-product-base" target="_blank">
@@ -431,5 +473,9 @@
         </div>
     </div>
 </body>
+
+<script>
+    AOS.init({duration: 1200});
+</script>
 
 </html>
