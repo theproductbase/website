@@ -45,6 +45,10 @@
 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+    <!-- AOS Animation -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <title>Free Resouces for The Product Base Club Members</title>
 </head>
 
@@ -97,8 +101,8 @@
             <div class="row">
                 <div class="col-12">
                     <div class="content">
-                        <h2>Resources</h2>
-                        <p class="lead">
+                        <h2 data-aos="fade-right">Resources</h2>
+                        <p class="lead" data-aos="fade-left" data-aos-delay="300">
                             Free Books, Events, Podcasts, and Videos for Product Managers
                         </p>
                     </div>
@@ -161,5 +165,11 @@
 
 
 </body>
+
+<script>
+    AOS.init({
+        duration: 1200
+    });
+</script>
 
 </html>
