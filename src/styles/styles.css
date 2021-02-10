@@ -528,11 +528,13 @@ hr {
     margin-top: 50px;
 }
 
-.contact-social-links i.fas,
-.contact-social-links i.fab,
-.contact-social-links i.fa {
+.contact-social-links a i {
     font-size: 40px !important;
     margin-right: 4px;
+}
+
+.contact-social-links a:hover i {
+    color: #000;
 }
 
 .header {
@@ -602,8 +604,8 @@ hr {
     margin-right: 10px;
 }
 
-.social-links a:hover {
-    opacity: 0.8;
+.social-links a:hover i {
+    color: #000;
 }
 
 .btn-margin {
