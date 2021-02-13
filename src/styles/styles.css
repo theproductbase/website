@@ -217,7 +217,6 @@ hr {
 
 .navbar .nav-item a.nav-link {
     color: #666666;
-    text-transform: uppercase;
     position: relative;
     font-size: 16px;
     font-family: 'Open Sans', sans-serif;
@@ -311,7 +310,7 @@ hr {
     margin: 0 auto;
     border-radius: 6px;
     padding-top: 10px;
-    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%);
+    border: 1px solid #eee;
 }
 
 .offering-wrapper {
@@ -353,7 +352,7 @@ hr {
 
 .pevent-wrapper {
     margin: 0 auto 20px;
-    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%);
+    border: 1px solid #eee;
     border-radius: 4px;
 }
 
@@ -390,6 +389,39 @@ hr {
 .pevent-company {
     height: 30px;
     margin-right: 10px;
+}
+
+.statements {
+    position: relative;
+}
+
+.statement-wrapper {
+    margin: 0 auto 40px;
+    /* box-shadow: 0px 2px 7px rgb(0 0 0 / 15%); */
+    border: 1px solid #eee;
+    border-radius: 6px;
+    height: 210px;
+}
+
+.statement-description {
+    text-align: left;
+    padding: 20px;
+}
+
+.statement-description .statement-title {
+    padding-top: 10px;
+    margin: 0;
+    font-size: 16px;
+    padding-bottom: 15px;
+    font-weight: 700;
+    color: #000;
+}
+
+.statement-description .statement-subtitle {
+    font-size: 20px;
+    color: #666;
+    margin-bottom: 0px i !important;
+    padding-bottom: 0;
 }
 
 .companies {
@@ -564,7 +596,7 @@ hr {
 .speaker-details {
     margin: 0 0 20px 0;
     padding: 0;
-    box-shadow: 0px 2px 7px rgb(0 0 0 / 15%);
+    border: 1px solid #eee;
     padding: 15px;
     border-radius: 4px;
     text-align: left;
