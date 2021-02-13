@@ -76,6 +76,10 @@
     content: "\f109";
 }
 
+.flaticon-tick:before {
+    content: "\f10a";
+}
+
 html,
 body {
     height: 100%;
@@ -311,6 +315,7 @@ hr {
     border-radius: 6px;
     padding-top: 10px;
     border: 1px solid #eee;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 15%);
 }
 
 .offering-wrapper {
@@ -354,6 +359,7 @@ hr {
     margin: 0 auto 20px;
     border: 1px solid #eee;
     border-radius: 4px;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 15%);
 }
 
 .pevent-description {
@@ -397,7 +403,7 @@ hr {
 
 .statement-wrapper {
     margin: 0 auto 40px;
-    /* box-shadow: 0px 2px 7px rgb(0 0 0 / 15%); */
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 15%);
     border: 1px solid #eee;
     border-radius: 6px;
     height: 210px;
@@ -422,6 +428,128 @@ hr {
     color: #666;
     margin-bottom: 0px i !important;
     padding-bottom: 0;
+}
+
+.memberships {
+    position: relative;
+}
+
+.membership-url:hover {
+    text-decoration: none;
+}
+
+.membership-wrapper {
+    margin: 0 auto 20px;
+    border: 1px solid #eee;
+    border-radius: 4px;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 15%);
+}
+
+.membership-description {
+    text-align: left;
+    padding: 20px;
+}
+
+.membership-description .membership-pricing {
+    margin: 0;
+    font-size: 100px;
+    padding-bottom: 2px;
+    color: #69BE28;
+    font-family: 'Open Sans', sans-serif;
+    letter-spacing: -15px;
+    margin-right: 15px;
+}
+
+.membership-description .membership-title {
+    font-size: 14px;
+    color: #333;
+    margin-bottom: 15px;
+    text-transform: capitalize;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+.membership-description .membership-subtitle {
+    font-size: 20px;
+    color: #333;
+    margin: 15px 0;
+    font-weight: 700;
+}
+
+.membership-ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding-left: 10px;
+}
+
+.membership-ul li {
+    margin: 0 0 5px 0;
+}
+
+.membership-company {
+    height: 30px;
+    margin-right: 10px;
+}
+
+.membership-tick {
+    font-size: 14px;
+    margin-right: 5px;
+    color: #69BE28;
+}
+
+.membership-access {
+    font-size: 16px;
+}
+
+.payments {
+    margin: 20px 0 50px 0;
+    padding: 0;
+}
+
+.payment {
+    width: 100%;
+}
+
+.payment-option {
+    border-right: 1px solid #eee;
+}
+
+.payment-option-noborder {
+    border-right: none;
+}
+
+.payment-ul:last-child {
+    border-right: none;
+}
+
+.payment-wrapper {
+    margin: 0 auto 20px;
+}
+
+.payment-name {
+    height: 40px;
+}
+
+.payment-ul {
+    margin: 0;
+    padding: 20px 0 0 20px;
+}
+
+.payment-ul li {
+    font-size: 16px;
+    margin-top: 15px;
+}
+
+.payment-ul li a {
+    border-bottom: 1px dashed #333;
+    color: #333;
+}
+
+.payment-ul li a:hover {
+    text-decoration: none;
+    border-bottom: 1px solid #333;
+    color: #333;
 }
 
 .companies {
@@ -597,6 +725,7 @@ hr {
     margin: 0 0 20px 0;
     padding: 0;
     border: 1px solid #eee;
+    box-shadow: 0px 1px 1px rgb(0 0 0 / 15%);
     padding: 15px;
     border-radius: 4px;
     text-align: left;
@@ -866,6 +995,13 @@ hr {
 }
 
 @media (max-width: 700px) {
+    .payment-option {
+        border-right: none;
+        border: 1px solid #eee;
+        border-radius: 4px;
+        padding: 20px;
+        margin-bottom: 20px;
+    }
     .officer-wrapper {
         width: 100%;
     }
