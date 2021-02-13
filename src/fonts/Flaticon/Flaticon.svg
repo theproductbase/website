@@ -1,11 +1,11 @@
 <?xml version="1.0" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd" >
 <!--
-2021-2-9: Created with FontForge (http://fontforge.org)
+2021-2-13: Created with FontForge (http://fontforge.org)
 -->
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1">
 <metadata>
-Created by FontForge 20170731 at Tue Feb  9 19:14:36 2021
+Created by FontForge 20170731 at Sat Feb 13 17:27:34 2021
  By root
 
 </metadata>
@@ -22,11 +22,14 @@ Created by FontForge 20170731 at Tue Feb  9 19:14:36 2021
     bbox="-0.00655822 -64 512.35 448"
     underline-thickness="25.6"
     underline-position="-51.2"
-    unicode-range="U+0020-F109"
+    unicode-range="U+0020-F10A"
   />
     <missing-glyph />
     <glyph glyph-name="space" unicode=" " horiz-adv-x="200" 
  />
+    <glyph glyph-name="011-tick" unicode="&#xf10a;" 
+d="M504.502 372.504c9.99707 -9.99805 9.99805 -26.207 0 -36.2041l-324.806 -324.806c-9.99023 -9.99023 -26.21 -9.99707 -36.2041 0l-135.994 135.992c-9.99805 9.99805 -9.99805 26.2061 0 36.2031c9.99902 9.99609 26.207 9.99707 36.2041 0l117.892 -117.893
+l306.704 306.707c9.99902 9.99805 26.207 9.99805 36.2041 0z" />
     <glyph glyph-name="005-mentor" unicode="&#xf104;" 
 d="M484.152 199.16c12.7998 -12.7998 19.8477 -29.8164 19.8477 -47.9121v-127.248c0 -13.2324 -10.7676 -24 -24 -24h-16c-2.81641 0 -5.48828 0.576172 -8 1.47168v-57.4717h-160v187.976l-9.47168 -5.15918c-8.16797 -4.46484 -17.4082 -6.81641 -26.7207 -6.81641
 c-14.9111 0 -28.9277 5.80762 -39.4639 16.3438l-63.6553 63.6562h-36.6885c-13.2324 0 -24 10.7676 -24 24v16c0 13.2324 10.7676 24 24 24h3.08789c5.52832 9.9043 15.8477 16 27.2803 16c8.35156 0 16.1914 -3.24805 22.0957 -9.15234l19.5361 -19.5361l64.2002 -64.208
