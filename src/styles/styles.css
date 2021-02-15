@@ -216,7 +216,7 @@ hr {
 }
 
 .navbar-brand img {
-    height: 50px;
+    height: 40px;
 }
 
 .navbar .nav-item a.nav-link {
@@ -995,6 +995,9 @@ hr {
 }
 
 @media (max-width: 700px) {
+    .navbar-brand img {
+        height: 30px;
+    }
     .payment-option {
         border-right: none;
         border: 1px solid #eee;
