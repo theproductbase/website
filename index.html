@@ -45,11 +45,14 @@
     <link rel="stylesheet" href="./src/styles/styles.css" />
 
     <script src="./node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="src/script/jquery.sticky.js"></script>
     <script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
     <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script src="src/script/main.js"></script>
 
     <title>The Product Base Club - UTD</title>
 </head>
@@ -71,7 +74,13 @@
         </div>
     </div> -->
 
-    <div class="header">
+    <div class="light-bg-container light-bg-3 mobile--hidden">
+        <div class="light-bg bg-top-right bg-orange"></div>
+        <div class="light-bg bg-mid-left bg-pink"></div>
+        <div class="light-bg bg-bottom-right bg-blue"></div>
+    </div>
+
+    <div class="header" id="myHeader">
         <div class="container my-0 py-0">
             <!--menu bar-->
             <nav class="navbar navbar-expand-lg navbar-light">
@@ -182,7 +191,7 @@
                                         </div>
 
                                         <div class="all-events-btn btn text-center btn-margin">
-                                            <a href="./membership/" class="btn btn-dark ml-md-4">Join the Club</a>
+                                            <a href="./membership/" class="btn btn-new-gradient ml-md-4">Join the Club</a>
                                         </div>
                                     </div>
                                 </div>
@@ -223,7 +232,7 @@
                                 </ul>
                             </p>
                             
-                            <a href="events/strategy.html" class="btn btn-dark ml-md-4">Register Now</a>
+                            <a href="events/strategy.html" class="btn btn-new-gradient ml-md-4">Register Now</a>
                         </div>
                     </div>
                 </div>
@@ -310,7 +319,7 @@
                                 </a>
                             </div>
                             <div class="all-events-btn btn text-center btn-margin">
-                                <a href="./events" class="btn btn-dark ml-md-4">View All Events</a>
+                                <a href="./events" class="btn btn-new-gradient ml-md-4">View All Events</a>
                             </div>
 
                         </div>

@@ -43,12 +43,14 @@
     <link rel="stylesheet" href="../src/styles/styles.css">
 
     <script src="../node_modules/jquery/dist/jquery.min.js"></script>
+    <script src="../src/script/jquery.sticky.js"></script>
     <script src="../node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 
 
     <!-- AOS Animation -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="../src/script/main.js"></script>
     <title>Design Workshop by The Product Base Club</title>
 </head>
 
@@ -58,8 +60,12 @@
     height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <!-- End Google Tag Manager (noscript) -->
 
-
-    <div class="header">
+    <div class="light-bg-container light-bg-3 mobile--hidden">
+        <div class="light-bg bg-top-right bg-orange"></div>
+        <div class="light-bg bg-mid-left bg-pink"></div>
+        <div class="light-bg bg-bottom-right bg-blue"></div>
+    </div>
+    <div class="header" id="myHeader">
         <div class="container my-0 py-0">
             <!--menu bar-->
             <nav class="navbar navbar-expand-lg navbar-light">
