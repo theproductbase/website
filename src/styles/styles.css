@@ -6,7 +6,8 @@
     font-weight: bold;
     font-style: normal;
 }
-
+/* @import "https://unpkg.com/open-props";
+@import "https://unpkg.com/open-props/normalize.min.css"; */
 
 /*
   	Flaticon icon font: Flaticon
@@ -1128,3 +1129,39 @@ hr {
 .no-bullet{
     list-style-type: none;
 }
+/* 
+.media-scroller {
+    --spacer: 1rem;
+    display: grid;
+    gap: var( --spacer);
+    grid-auto-flow: column;
+    grid-auto-columns: 30;
+    overflow-x: auto;
+    overscroll-behavior-inline: contain;
+    padding: 0 var(--spacer) var(--spacer);
+    box-shadow: var(--shadow-2);
+}
+
+.snaps-inline{
+    scroll-snap-type: inline mandatory;
+    scroll-padding-inline: var(--spacer);
+}
+
+.snaps-inline > * {
+    scroll-snap-align: start;
+}
+
+.media-element {
+    padding:var( --spacer);
+    gap: var(--spacer);
+    display: grid;
+    grid-template-rows: min-content;
+    background: var(--spacer);
+    border-radius: var(--spacer);
+}
+
+.media-element >img {
+    inline-size: 100%;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+} */
